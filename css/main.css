@@ -1,0 +1,154 @@
+/***************
+General
+****************/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 700;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 400;
+  margin: -15px 0 0 0;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/***********
+Colors
+************/
+
+body {
+  background-color: #fff;
+  color: #999;
+  margin: 0;
+}
+
+header {
+  background: #6ab47b;
+}
+
+h1, h2, nav a {
+  color: #fff
+}
+
+nav a:hover,
+nav a.selected {
+  color: #32673f;
+}
+
+/* Color of the background for mobile */
+
+nav {
+  background: #599a68;
+}
+
+/*************
+Navigation
+*************/
+
+nav li {
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0 0;
+}
+
+nav a {
+  padding: 15px 10px;
+  font-weight: 700;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+/*********
+Header
+**********/
+
+#logo {
+  text-align: center;
+}
+
+/*******
+Footer
+********/
+
+footer {
+  text-align: center;
+  color: #ccc;
+  font-size: .75em;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+/*************
+Page: Portfolio
+**************/
+
+#gallery li {
+background: #f5f5f5;
+}
+
+#gallery li p {
+padding: 0 5% 5% 5%;
+font-size: .75em;
+color: #7f858a;
+}
+
+/***********
+Page: Contact
+************/
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+.contact-info a {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 0 10px;
+}
