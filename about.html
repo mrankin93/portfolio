@@ -6,19 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Front End Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <header>
     <!-- Title for page (clicable for home page) -->
-    <a href="index.html">
+    <a id="logo" href="index.html">
       <h1>Michael Rankin</h1>
       <h2>Front End Web Developer</h2>
     </a>
     <nav>
       <ul>
         <li><a href="index.html">Portfolio</a></li>
-        <li><a href="#">About</a></li>
+        <li><a class="selected" href="#">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -29,7 +33,7 @@
     <!-- First column start -->
     <section id="primary">
       <!-- Profile Image -->
-      <img src="/img/profile.jpg" alt="Profile Picture" width="200px">
+      <img class="profile-photo" src="/img/profile.jpg" alt="Profile Picture" width="200px">
     </section>
     <!-- First column end -->
 
@@ -47,8 +51,8 @@
   </div>
 
   <footer>
-    <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter"></a>
-    <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook"></a>
+    <a href="https://twitter.com" target="_blank"><img class="social-icon" src="img/twitter-wrap.png" alt="Twitter"></a>
+    <a href="https://facebook.com" target="_blank"><img class="social-icon" src="img/facebook-wrap.png" alt="Facebook"></a>
     <p>&copy 2021 Michael Rankin</p>
   </footer>
 
