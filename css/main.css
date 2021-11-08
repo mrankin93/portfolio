@@ -46,7 +46,7 @@ Colors
 body {
   background-color: #fff;
   color: #999;
-  margin: 0;
+  /* margin: 0; */
 }
 
 header {

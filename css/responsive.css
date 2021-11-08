@@ -1,0 +1,63 @@
+@media screen and (min-width: 480px) {
+  /***************
+  TWO COLUMN LAYOUT
+  ****************/
+
+  #primary {
+    float: left;
+    width: 50%;
+  }
+
+  #secondary {
+    float: right;
+    width: 50%;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  /************
+  ABOUT PAGE
+  ************/
+
+  .profile-photo {
+    float: left;
+    max-width: 150px;
+    margin: 0 5% 80px;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  /************
+  NAVIGATION MENU
+  ************/
+
+  #logo {
+    float: left;
+    padding-left: 20px;
+  }
+
+  nav {
+    float: right;
+    margin-top: 0;
+    background: none;
+    padding-top: 25px;
+  }
+
+  header {
+    min-height: 100px;
+    border-bottom: 5px solid #599a68;
+  }
+
+  /* 
+  PORTFOLIO PAGE
+  */
+
+  #gallery li {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+  }
+
+}
